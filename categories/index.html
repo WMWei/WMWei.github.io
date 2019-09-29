@@ -62,7 +62,7 @@
 <meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="wm&#39;s blog">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-09-29T11:51:36.206Z">
+<meta property="og:updated_time" content="2019-09-29T18:41:31.506Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="categories">
   <link rel="canonical" href="http://yoursite.com/categories/">
@@ -278,7 +278,14 @@
       
       <div class="post-body">
         
-          
+          <div class="category-all-page">
+            <div class="category-all-title">
+              目前共计 1 个分类
+            </div>
+            <div class="category-all">
+              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Other/">Other</a><span class="category-list-count">1</span></li></ul>
+            </div>
+          </div>
         
       </div>
       
@@ -295,9 +302,6 @@
 
           </div>
           
-    
-    <div class="comments" id="gitalk-container"></div>
-  
 
         </div>
           
@@ -355,18 +359,26 @@
       
       <div class="site-state-item site-state-categories">
         
+          
+            <a href="/categories/">
+          
+        
         <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">分类</span>
-        
+        </a>
       </div>
     
       
       
       <div class="site-state-item site-state-tags">
         
+          
+            <a href="/tags/">
+          
+        
         <span class="site-state-item-count">1</span>
         <span class="site-state-item-name">标签</span>
-        
+        </a>
       </div>
     
   </nav>
@@ -514,24 +526,6 @@ window.addEventListener('pjax:success', () => {
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID: 'e6265393d6d08cd38782',
-      clientSecret: 'e3f2dd67284cb88b43e8943a2ee8c9c5c9c58f4a',
-      repo: 'gitalkcomment',
-      owner: 'wmwei',
-      admin: ['wmwei'],
-      id: 'a676607444a8bc8b150c9a3aff884e61',
-        language: 'zh-CN',
-      
-      distractionFreeMode: 'true'
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-</script>
 
     </div>
 </body>
