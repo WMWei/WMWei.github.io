@@ -36,7 +36,7 @@
     fancybox: false,
     mediumzoom: false,
     lazyload: false,
-    pangu: false,
+    pangu: true,
     algolia: {
       appID: '',
       apiKey: '',
@@ -432,6 +432,7 @@
   
   <script src="/lib/anime.min.js?v=3.1.0"></script>
   <script src="/lib/pjax/pjax.min.js?v=0.2.8"></script>
+  <script src="//cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>
   <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 <script src="/js/utils.js?v=7.4.0"></script><script src="/js/motion.js?v=7.4.0"></script>
@@ -530,7 +531,7 @@ window.addEventListener('pjax:success', () => {
     var gitalk = new Gitalk({
       clientID: 'e6265393d6d08cd38782',
       clientSecret: 'e3f2dd67284cb88b43e8943a2ee8c9c5c9c58f4a',
-      repo: 'https://wmwei.github.io/',
+      repo: 'gitalkcomment',
       owner: 'wmwei',
       admin: ['wmwei'],
       id: '516a35d265e49707e113184afbcbb8c8',
