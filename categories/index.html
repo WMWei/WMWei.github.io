@@ -58,13 +58,14 @@
 
   <meta name="keywords" content="Python, 爬虫, 编程学习">
 <meta property="og:type" content="website">
-<meta property="og:title" content="wm&#39;s blog">
-<meta property="og:url" content="http://yoursite.com/archives/2019/09/index.html">
+<meta property="og:title" content="categories">
+<meta property="og:url" content="http://yoursite.com/categories/index.html">
 <meta property="og:site_name" content="wm&#39;s blog">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-09-29T11:51:36.206Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="wm&#39;s blog">
-  <link rel="canonical" href="http://yoursite.com/archives/2019/09/">
+<meta name="twitter:title" content="categories">
+  <link rel="canonical" href="http://yoursite.com/categories/">
 
 
 <script id="page-configurations">
@@ -73,12 +74,12 @@
     sidebar: "",
     isHome: false,
     isPost: false,
-    isPage: false,
-    isArchive: true
+    isPage: true,
+    isArchive: false
   };
 </script>
 
-  <title>归档 | wm's blog</title>
+  <title>categories | wm's blog</title>
   
 
 
@@ -254,70 +255,49 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">categories
+
+</h1>
+
+<div class="post-meta">
   
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        
-        
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
         
           
         
-        <span class="collection-header">嗯..! 目前共计 1 篇日志。 继续努力。</span>
       </div>
       
-
       
-
-  
-  
-
-  
+      
+    </div>
     
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
-  
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-09-29T13:21:22+08:00"
-              content="2019-09-29">
-          09-29
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/09/29/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-
-    </div>
+    
+    
+    
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+    
+    <div class="comments" id="gitalk-container"></div>
+  
 
         </div>
           
@@ -332,6 +312,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -528,6 +513,24 @@ window.addEventListener('pjax:success', () => {
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID: 'e6265393d6d08cd38782',
+      clientSecret: 'e3f2dd67284cb88b43e8943a2ee8c9c5c9c58f4a',
+      repo: 'https://wmwei.github.io/',
+      owner: 'wmwei',
+      admin: ['wmwei'],
+      id: 'a676607444a8bc8b150c9a3aff884e61',
+        language: 'zh-CN',
+      
+      distractionFreeMode: 'true'
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+</script>
 
     </div>
 </body>
