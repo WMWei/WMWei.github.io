@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: wwm's blog
+subtitle: 
 description:
-keywords:
-author: John Doe
+keywords: "Python, 爬虫, 编程学习"
+author: wwm
 language: en
 timezone:
 
